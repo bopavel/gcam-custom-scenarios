@@ -9,7 +9,7 @@ This folder contains the results and figures for the GCAM runs. We compare three
 All runs use GCAM 7.0 (`gcam-v7.0`) with updated configuration files
 `configuration_ref_upd.xml`, `configuration_cap_upd.xml`, and `configuration_tax_upd.xml`.
 
-![](https://github.com/bopavel/gcam-custom-scenarios/blob/be3c0df6a9c0f3d14059bb97feabae099a6222c6/results-figures/figures/fig01.png)
+![](https://github.com/bopavel/gcam-custom-scenarios/blob/25d4bf6367d3822f7c6e1f691b67a4a751c8c8be/results-figures/figures/fig_mk1_01.png)
 
 ---
 
@@ -17,7 +17,7 @@ All runs use GCAM 7.0 (`gcam-v7.0`) with updated configuration files
 
 The first set of figures shows CO₂ emissions for Canada in the three scenarios.
 
-![CO₂ emissions by region: Canada – GCAM interface](figures/01_co2_canada_interface.png)
+![CO₂ emissions by region: Canada – GCAM interface](results-figures/figures/fig_mk1_02.png)
 
 We then export the data to Excel and plot the trajectories:
 
