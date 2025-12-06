@@ -9,7 +9,7 @@ This folder contains the results and figures for the GCAM runs. We compare three
 All runs use GCAM 7.0 (`gcam-v7.0`) with updated configuration files
 `configuration_ref_upd.xml`, `configuration_cap_upd.xml`, and `configuration_tax_upd.xml`.
 
-![](results-figures/figures/fig01.png)
+![](https://github.com/bopavel/gcam-custom-scenarios/blob/be3c0df6a9c0f3d14059bb97feabae099a6222c6/results-figures/figures/fig01.png)
 
 ---
 
