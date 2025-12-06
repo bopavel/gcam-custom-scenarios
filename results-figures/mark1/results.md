@@ -3,8 +3,8 @@
 This folder contains the results and figures for the GCAM runs. We compare three scenarios for Canada with a focus on 2050:
 
 - **Reference** – no additional climate policy (middle-of-the-road socioeconomic and technological assumptions).
-- **Carbon Constraint (Cap)** – annual CO₂ emissions constrained via `carbon_cap.xml`. (the model determines the carbon price based on a prescribed emissions pathway).
-- **Carbon Tax (Tax)** – exogenous carbon price path via `carbon_tax_25_5_mod.xml`. (to incorporate policy perspectives)
+- **Carbon Constraint (Cap)** – annual CO₂ emissions constrained via `carbon_cap.xml` (determine carbon price based on prescribed emissions pathway).
+- **Carbon Tax (Tax)** – exogenous carbon price path via `carbon_tax_25_5_mod.xml` (incorporate policy perspectives).
 
 All runs use GCAM 7.0 (`gcam-v7.0`) with updated configuration files
 `configuration_ref_upd.xml`, `configuration_cap_upd.xml`, and `configuration_tax_upd.xml`.
