@@ -35,16 +35,20 @@ We then export the data to Excel and plot the trajectories:
 We use *CO₂ emissions by sector (no bio) (excluding resource production)* to
 identify which sectors contribute most to reductions in 2050.
 
-![CO₂ emissions by sector: Cement and Iron & Steel](figures/02_co2_canada_cement_steel.png)
+First, using “Cement” and “Iron and Steel” as examples, we observe emission reductions from 2025 onward in both carbon constraint and carbon tax scenarios.
 
-By comparing `Ref – Cap` and `Ref – Tax` differences in 2050, we find that:
+![CO₂ emissions by sector: Cement and Iron & Steel](https://github.com/bopavel/gcam-custom-scenarios/blob/ff2ba570e7210bdea7efe3a8f0ed47d3669f27ed/results-figures/figures/fig_mk1_04.png)
+
+Next, by comparing `Ref – Cap` and `Ref – Tax` differences in 2050, we find that:
 
 - **Electricity** and **Refining** show the largest absolute reductions in CO₂.
 - These sectors drive the bulk of decarbonization under both policy scenarios.
 
+![](https://github.com/bopavel/gcam-custom-scenarios/blob/ff2ba570e7210bdea7efe3a8f0ed47d3669f27ed/results-figures/figures/fig_mk1_05.png)
+
 Example summary chart:
 
-![CO₂ emissions by sector: Canada – focus on Electricity and Refining](figures/02_co2_canada_by_sector_elec_refining.png)
+![CO₂ emissions by sector: Canada – focus on Electricity and Refining](https://github.com/bopavel/gcam-custom-scenarios/blob/ff2ba570e7210bdea7efe3a8f0ed47d3669f27ed/results-figures/figures/fig_mk1_06.png)
 
 ---
 
