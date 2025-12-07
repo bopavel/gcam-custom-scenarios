@@ -4,7 +4,7 @@ This folder contains the results and figures for the GCAM runs. We compare three
 
 - **Reference** – no additional climate policy (middle-of-the-road socioeconomic and technological assumptions).
 - **Carbon Constraint (Cap)** – annual CO₂ emissions constrained via `carbon_cap.xml` (determine carbon price based on prescribed emissions pathway).
-- **Carbon Tax (Tax)** – exogenous carbon price path via `carbon_tax_25_5_mod.xml` (incorporate policy perspectives).
+- **Carbon Tax (Tax)** – exogenous carbon price path via `carbon_tax_25_5_mod.xml` (another way to incorporate policy perspectives).
 
 All runs use GCAM 7.0 (`gcam-v7.0`) with updated configuration files
 `configuration_ref_upd.xml`, `configuration_cap_upd.xml`, and `configuration_tax_upd.xml`.
@@ -57,30 +57,34 @@ Example summary chart:
 We query *primary energy consumption with CCS by region (direct equivalent)* and
 compare fuel types.
 
-![Primary energy consumption with CCS – raw table](figures/03_primary_energy_table.png)
+![Primary energy consumption with CCS – raw table](https://github.com/bopavel/gcam-custom-scenarios/blob/c601cde7499d18326fee8f192eadab9d1381da44/results-figures/figures/fig_mk1_07.png)
 
-For illustration, we highlight oil and wind:
+For illustration, we highlight oil and wind, with energy units (EJ) expressed in exajoules (10^18 joules).
 
-![Primary energy consumption: Oil](figures/03_primary_energy_oil.png)
+![Primary energy consumption: Oil](https://github.com/bopavel/gcam-custom-scenarios/blob/c601cde7499d18326fee8f192eadab9d1381da44/results-figures/figures/fig_mk1_08.png)
 
-![Primary energy consumption: Wind](figures/03_primary_energy_wind.png)
+![Primary energy consumption: Wind](https://github.com/bopavel/gcam-custom-scenarios/blob/c601cde7499d18326fee8f192eadab9d1381da44/results-figures/figures/fig_mk1_09.png)
 
 **Key insight:**
 
-1. Fossil energy (oil, gas, coal) is reduced relative to Reference.  
-2. Fossil energy with **CCS** grows, substituting some unabated fossil use.  
-3. Low-carbon sources (e.g., wind, solar) grow substantially in policy scenarios.
+- Fossil energy (oil, natural gas, coal) is reduced relative to Reference (decreased reliance on carbon-intensive energy sources).
+- Fossil energy with **CCS** grows, substituting some unabated fossil use (Carbon Capture and Storage technology).
+- Low-carbon sources (e.g., wind, solar) grow substantially in policy scenarios (expanded utilization).
 
 ---
 
 ## 4. End-use sectors: total energy demand
 
+End-use sector decarbonization is examined through changes in total energy consumption and fuel structure.
+
 We use the *total final energy by aggregate sector* query (buildings, industry,
 transportation) and build pivot tables from 2015 onwards.
 
+![](https://github.com/bopavel/gcam-custom-scenarios/blob/3f768036d990afb48eae50c7497dd6d890961e43/results-figures/figures/fig_mk1_10.png)
+
 ### 4.1 Buildings – total final energy (EJ)
 
-![Total final energy: Buildings](figures/04_final_energy_buildings_total.png)
+![Total final energy: Buildings](https://github.com/bopavel/gcam-custom-scenarios/blob/3f768036d990afb48eae50c7497dd6d890961e43/results-figures/figures/fig_mk1_11.png)
 
 - Reference: consistent growth over time.  
 - Cap: growth slows after 2040–2050.  
@@ -88,18 +92,18 @@ transportation) and build pivot tables from 2015 onwards.
 
 ### 4.2 Industry – total final energy (EJ)
 
-![Total final energy: Industry](figures/05_final_energy_industry_total.png)
+![Total final energy: Industry](https://github.com/bopavel/gcam-custom-scenarios/blob/3f768036d990afb48eae50c7497dd6d890961e43/results-figures/figures/fig_mk1_12.png)
 
-All scenarios show growth, but:
+All scenarios show consistent growth, but:
 
 - Tax < Reference, and  
 - Cap < Tax in terms of absolute energy use.
 
 ### 4.3 Transportation – total final energy (EJ)
 
-![Total final energy: Transportation](figures/06_final_energy_transport_total.png)
+![Total final energy: Transportation](https://github.com/bopavel/gcam-custom-scenarios/blob/3f768036d990afb48eae50c7497dd6d890961e43/results-figures/figures/fig_mk1_13.png)
 
-- 2020 shows a clear increase vs 2015.  
+- 2020 shows a clear increase vs 2015 (initial increase).  
 - After a small dip in 2025, all scenarios follow a “parabola-like” trajectory.  
 - Cap has the lowest absolute energy use among the three scenarios.
 
