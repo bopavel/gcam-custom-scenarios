@@ -17,15 +17,15 @@ All runs use GCAM 7.0 (`gcam-v7.0`) with updated configuration files
 
 The first set of figures shows CO₂ emissions for Canada in the three scenarios.
 
-![CO₂ emissions by region: Canada – GCAM interface](results-figures/figures/fig_mk1_02.png)
+![CO₂ emissions by region: Canada – GCAM interface](https://github.com/bopavel/gcam-custom-scenarios/blob/e7e9130dd9b52b1c37680d0abb494fecc627de0f/results-figures/figures/fig_mk1_02.png)
 
 We then export the data to Excel and plot the trajectories:
 
-![CO₂ emissions by region: Canada – Reference vs Cap vs Tax](figures/01_co2_canada_scenarios.png)
+![CO₂ emissions by region: Canada – Reference vs Cap vs Tax](https://github.com/bopavel/gcam-custom-scenarios/blob/e7e9130dd9b52b1c37680d0abb494fecc627de0f/results-figures/figures/fig_mk1_03.png)
 
 **Key insight:**  
-- Reference: emissions peak around 2030 and decline only slightly by 2050.  
-- Cap: emissions drop sharply after 2025 and approach near-zero levels by 2050.  
+- Reference: emissions peak around 2030 and barely decline by 2050.
+- Cap: emissions drop sharply after 2025 and approach near-zero levels by 2050.
 - Tax: emissions decline steadily but less aggressively than under the cap.
 
 ---
