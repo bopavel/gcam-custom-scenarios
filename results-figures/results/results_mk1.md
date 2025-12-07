@@ -177,30 +177,32 @@ Similar trends to Reference but with:
 
 ## 6. Regional comparison: Canada vs Russia
 
+We investigate how outcomes may vary across different geographical contexts.
+
 We keep the same scenarios but compare Canada with Russia across the three
 aggregate sectors.
 
 ### 6.1 Carbon Constraint (Cap)
 
-![Cap – Buildings: Canada vs Russia](figures/10_cap_building_can_rus.png)  
-![Cap – Industry: Canada vs Russia](figures/10_cap_industry_can_rus.png)  
-![Cap – Transport: Canada vs Russia](figures/10_cap_transport_can_rus.png)
+![Cap – Buildings: Canada vs Russia](https://github.com/bopavel/gcam-custom-scenarios/blob/2edaf845eaaaed7ffb7e843701818edb51447506/results-figures/figures/fig_mk1_27.png)  
+![Cap – Industry: Canada vs Russia](https://github.com/bopavel/gcam-custom-scenarios/blob/2edaf845eaaaed7ffb7e843701818edb51447506/results-figures/figures/fig_mk1_28.png)  
+![Cap – Transport: Canada vs Russia](https://github.com/bopavel/gcam-custom-scenarios/blob/2edaf845eaaaed7ffb7e843701818edb51447506/results-figures/figures/fig_mk1_29.png)
 
 **Cap strategy:**
 
-- More effective than Tax in both countries and sectors.  
+- More effective than Tax in both countries across all sectors.  
 - In some sectors (e.g., Russian buildings, transportation in both countries), it leads to **absolute reductions** vs Reference.  
 - Particularly impactful in Russia’s building sector: Russia achieves a reduction, while Canada mainly slows growth.
 
 ### 6.2 Tax
 
-![Tax – Buildings: Canada vs Russia](figures/11_tax_building_can_rus.png)  
-![Tax – Industry: Canada vs Russia](figures/11_tax_industry_can_rus.png)  
-![Tax – Transport: Canada vs Russia](figures/11_tax_transport_can_rus.png)
+![Tax – Buildings: Canada vs Russia](https://github.com/bopavel/gcam-custom-scenarios/blob/2edaf845eaaaed7ffb7e843701818edb51447506/results-figures/figures/fig_mk1_30.png)  
+![Tax – Industry: Canada vs Russia](https://github.com/bopavel/gcam-custom-scenarios/blob/2edaf845eaaaed7ffb7e843701818edb51447506/results-figures/figures/fig_mk1_31.png)  
+![Tax – Transport: Canada vs Russia](https://github.com/bopavel/gcam-custom-scenarios/blob/2edaf845eaaaed7ffb7e843701818edb51447506/results-figures/figures/fig_mk1_32.png)
 
 **Tax strategy:**
 
-- Less effective than Cap but still reduces growth compared to Reference.  
+- Less effective than Cap but still shows some mitigation, reducing growth compared to Reference.  
 - Appears relatively more effective in Russia’s industry sector than in Canada’s.
 
 ---
@@ -214,7 +216,7 @@ aggregate sectors.
   - Transport remains refined-liquid-heavy but gradually shifts to electricity
     (and some hydrogen), particularly under the Cap scenario.
 - **Regional differences:**  
-  - Russia’s buildings appear more responsive to the Cap strategy than Canada’s.  
+  - Russia’s buildings appear more responsive to policy scenarios than Canada’s.  
   - Both strategies struggle to fully curb industrial energy growth in both regions.  
   - Transport decarbonization is effective under Cap in both countries.
 
