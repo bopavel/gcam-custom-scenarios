@@ -112,19 +112,25 @@ All scenarios show consistent growth, but:
 ## 5. End-use sectors: fuel mix
 
 We further examine fuel structure using *final energy consumption by sector and fuel*,
-re-classified into the three aggregate sectors.
+re-classified into the three aggregate sectors (buildings, industry, and transportation).
+
+This analysis is cross-referenced with *building final energy by fuel* and *industry final energy by fuel* data for accuracy.
+
+![](https://github.com/bopavel/gcam-custom-scenarios/blob/30c147f201aea827923e71fa022fcf23bbd169ae/results-figures/figures/fig_mk1_14.png)
 
 ### 5.1 Buildings – final energy by fuel
 
+![](https://github.com/bopavel/gcam-custom-scenarios/blob/30c147f201aea827923e71fa022fcf23bbd169ae/results-figures/figures/fig_mk1_15.png)
+
 #### Reference
 
-![Buildings – Reference](figures/07_buildings_fuel_ref.png)
+![Buildings – Reference](https://github.com/bopavel/gcam-custom-scenarios/blob/30c147f201aea827923e71fa022fcf23bbd169ae/results-figures/figures/fig_mk1_16.png)
 
-Moderate electrification; gradual decline in gas.
+Moderate transition towards electrification; gradual decline in gas consumption.
 
 #### Carbon Constraint
 
-![Buildings – Carbon Constraint](figures/07_buildings_fuel_cap.png)
+![Buildings – Carbon Constraint](https://github.com/bopavel/gcam-custom-scenarios/blob/30c147f201aea827923e71fa022fcf23bbd169ae/results-figures/figures/fig_mk1_17.png)
 
 Strongest shifts:
 
@@ -134,7 +140,7 @@ Strongest shifts:
 
 #### Tax
 
-![Buildings – Tax](figures/07_buildings_fuel_tax.png)
+![Buildings – Tax](https://github.com/bopavel/gcam-custom-scenarios/blob/30c147f201aea827923e71fa022fcf23bbd169ae/results-figures/figures/fig_mk1_18.png)
 
 Similar trends to Reference but with:
 
@@ -143,25 +149,29 @@ Similar trends to Reference but with:
 
 ### 5.2 Industry – final energy by fuel
 
-![Industry – Reference](figures/08_industry_fuel_ref.png)  
-![Industry – Carbon Constraint](figures/08_industry_fuel_cap.png)  
-![Industry – Tax](figures/08_industry_fuel_tax.png)
+![](https://github.com/bopavel/gcam-custom-scenarios/blob/11c816e2cd38d5eb56bfea16dd97b2f6738a181c/results-figures/figures/fig_mk1_19.png)
+
+![Industry – Reference](https://github.com/bopavel/gcam-custom-scenarios/blob/11c816e2cd38d5eb56bfea16dd97b2f6738a181c/results-figures/figures/fig_mk1_20.png)  
+![Industry – Carbon Constraint](https://github.com/bopavel/gcam-custom-scenarios/blob/11c816e2cd38d5eb56bfea16dd97b2f6738a181c/results-figures/figures/fig_mk1_21.png)  
+![Industry – Tax](https://github.com/bopavel/gcam-custom-scenarios/blob/11c816e2cd38d5eb56bfea16dd97b2f6738a181c/results-figures/figures/fig_mk1_22.png)
 
 - Reference: growth in all fuels, especially electricity, biomass, refined liquids, and coal.  
-- Cap: strongest growth in electricity and hydrogen; gas declines; biomass and refined liquids grow moderately; coal roughly stabilizes.  
+- Cap: the most dramatic shifts, with the strongest growth in electricity and hydrogen; gas declines; biomass and refined liquids grow moderately; relatively stable coal use.  
 - Tax: intermediate between Reference and Cap.
 
 ### 5.3 Transport – final energy by fuel
 
-![Transport – Reference](figures/09_transport_fuel_ref.png)  
-![Transport – Carbon Constraint](figures/09_transport_fuel_cap.png)  
-![Transport – Tax](figures/09_transport_fuel_tax.png)
+![](https://github.com/bopavel/gcam-custom-scenarios/blob/b2e387d7a4d35c461f148ae5051313951db9a05e/results-figures/figures/fig_mk1_23.png)
 
-- Refined liquids remain dominant.  
-- Coal is not used; gas is minimal and declining.  
+![Transport – Reference](https://github.com/bopavel/gcam-custom-scenarios/blob/b2e387d7a4d35c461f148ae5051313951db9a05e/results-figures/figures/fig_mk1_24.png)  
+![Transport – Carbon Constraint](https://github.com/bopavel/gcam-custom-scenarios/blob/b2e387d7a4d35c461f148ae5051313951db9a05e/results-figures/figures/fig_mk1_25.png)  
+![Transport – Tax](https://github.com/bopavel/gcam-custom-scenarios/blob/b2e387d7a4d35c461f148ae5051313951db9a05e/results-figures/figures/fig_mk1_26.png)
+
+- Refined liquids remain the dominant fuel source in transportation, unlike other sectors.  
+- Coal is not used; gas is minimal and declining (contrast with its importance in buildings and industry sectors).  
 - Reference already shows a shift toward electricity and hydrogen.  
 - Cap has the highest adoption of electricity and hydrogen and largest reduction in refined liquids.  
-- Tax is in between, with slightly lower electrification than Cap.
+- Tax is in between, with slightly lower electrification than Cap and marginally higher reduction in refined liquids use compared to Reference.
 
 ---
 
